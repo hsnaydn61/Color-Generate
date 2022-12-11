@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #f232ba, #fa2232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro";
+}
+
+
+h1{
+  font-size: 4.25rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+  color: #fff;
+}
+
+.tittle{
+  text-align: center;
+  margin: 50px auto;
+}
+
+.container h1 {
+  margin: 20px;
+}
+.color-picker input {
+  width: 500px;
+  height: 50px;
+  padding: 0;
+  margin: 30px 10px;
+  border-radius: 70px;
+  border: none;
+  outline: none;
+}
+
+.color-picker a {
+  display: block;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 23px;
+}
+
+.guide {
+  font-size: 3.50rem;
+  margin: 20px 0;
+}
+
+#message{
+  font-size: 2.25rem;
+}
+
+form{
+  text-align: center;
+  margin: 100px auto;
+  padding-bottom: 100px;
+
+}
